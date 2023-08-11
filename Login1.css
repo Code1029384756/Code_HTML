@@ -1,0 +1,48 @@
+body{
+    overflow: hidden;
+    background-image: linear-gradient(95deg,rgb(225, 194, 236),rgb(178, 175, 247));
+}
+.from{
+    width: 320px;
+    height: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+.from h2{
+    font-family: 楷体;
+    text-align: center;
+    font-size: 38px;
+    color: rgb(66, 66, 66);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 45px;
+    margin-bottom: 30px;
+}
+input[type="text"],input[type="password"]{
+    border: 1px solid white;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 50px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin: 16px 48px;
+    background-color: darkslategray;
+    background-image: linear-gradient(95deg,rgb(225, 194, 236),rgb(178, 175, 247));
+    border-radius: 0.5em;
+
+}
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color: black;
+}
+button{
+    width: 250px;
+    height: 35px;
+    margin-top: 40px;
+    background-image: linear-gradient(95deg,rgb(225, 194, 236),rgb(178, 175, 247));
+    border-radius: 1em;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+}
