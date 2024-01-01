@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop clock</title>
+    <link rel="stylesheet" href="./themes/themes1.css">
+</head>
+<body>
+    <div class="more">
+        <input type="checkbox" id="cb">
+        <label for="cb">…</label>
+        <div class="nav">
+            <div class="colors">
+                <span class="active" onclick="changColors('#1dd1a1')" style="--clr:#1dd1a1;"></span>
+                <span style="--clr:#ff6b6b;" onclick="changColors('#ff6b6b')"></span>
+                <span style="--clr:#2e86de;" onclick="changColors('#2e86de')"></span>
+                <span style="--clr:#f368e0;" onclick="changColors('#f368e0')"></span>
+                <span style="--clr:#ff9f43;" onclick="changColors('#ff9f43')"></span>
+                <span style="--clr:#000000;" onclick="changColors('#000000')"></span>
+            </div>
+        </div>
+    </div>
+    <div class="clock" id="clock">
+        <h1 id="showtime" ></h1>
+    </div>
+    <script src="./time.js"></script>
+</body>
+</html>
